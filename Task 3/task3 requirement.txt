@@ -1,0 +1,26 @@
+Medical Q&A Chatbot
+
+Medical Q&A Chatbot is a Streamlit-based web application that uses the MedQuAD dataset to answer medical questions. It can also recognize and display medical entities in user queries.
+
+Features:
+
+Loads and processes the MedQuAD dataset (CSV and TXT files).
+Searches the dataset for relevant medical answers based on user queries.
+Uses NLTK to perform Named Entity Recognition (NER) on medical questions.
+Displays recognized medical entities and provides answers from the dataset.
+
+Prerequisites:
+
+1.Install the required Python libraries:
+pip install streamlit pandas nltk
+
+2.Download NLTK resources (tagger, tokenizer, and chunker).
+
+3.Ensure that the MedQuAD dataset files are available at the specified paths or update the file paths accordingly.
+
+Running the App:
+
+1.Run the Streamlit application:
+streamlit run TASK 3.py
+
+2.Open the app in your browser and input medical questions to receive relevant answers from the dataset.
